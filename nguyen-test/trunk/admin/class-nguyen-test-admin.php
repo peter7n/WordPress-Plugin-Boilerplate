@@ -100,4 +100,16 @@ class Nguyen_Test_Admin {
 
 	}
 
+	/**
+	 * Add menu options
+	 *
+	 */
+	public function add_menu() {
+        add_menu_page( "View Customers", "Customers", 'manage_options', $this->nguyen_test . '-customers', array( $this, 'view_customers' ));
+    }
+
+	 public function view_customers() {
+        include( plugin_dir_path( __FILE__ ) . 'partials/view-customers.php' );
+    }
+
 }
