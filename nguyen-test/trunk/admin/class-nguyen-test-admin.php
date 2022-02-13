@@ -109,7 +109,7 @@ class Nguyen_Test_Admin {
     }
 
 	 public function view_customers() {
-        include( plugin_dir_path( __FILE__ ) . 'partials/view-customers.php' );
+        include( plugin_dir_path( __FILE__ ) . 'partials/customers.php' );
     }
 
 }
