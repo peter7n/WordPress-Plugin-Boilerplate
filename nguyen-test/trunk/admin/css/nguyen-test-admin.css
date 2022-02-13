@@ -1,0 +1,24 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .nguyen-table {
+ 	padding: 10px;
+ 	border: 1px solid gray;
+ 	border-collapse: collapse;
+ 	width: 100%;
+ }
+ .nguyen-table th {
+ 	padding: 10px;
+ }
+ .nguyen-table tr {
+ 	border-bottom: 1px solid gray;
+ }
+ .nguyen-table tr:nth-child(odd) {
+ 	background: #fff;
+ }
+ .nguyen-table td {
+ 	vertical-align: top;
+ 	padding: 10px;
+  }
